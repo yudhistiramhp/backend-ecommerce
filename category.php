@@ -4,8 +4,6 @@ require_once(__DIR__ . '/config/init.php');
 $categoryController = new CategoryController();
 $categories = $categoryController->index();
 
-// call product index
-
 // if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST["restoreAllCategories"])) {
 //     $categoryController->restore();
 //     header("Location: index.php");
